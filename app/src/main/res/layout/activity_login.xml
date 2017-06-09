@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ews.demointent.LoginActivity">
+
+    <EditText
+        android:id="@+id/etUsername"
+        style="@style/inputs"
+        android:hint="@string/hint_username" />
+
+    <EditText
+        android:id="@+id/etSenha"
+        style="@style/inputs_senha"
+        android:hint="@string/hint_senha" />
+
+    <Button
+        android:id="@+id/btConnectar"
+        style="@style/inputs"
+        android:onClick="conectar"
+        android:layout_marginTop="@dimen/padding_default_size"
+        android:text="@string/bt_conectar"/>
+
+    <TextView
+        android:id="@+id/tvNovoUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/padding_default_size"
+        android:text="@string/tx_novo_usuario"
+        android:gravity="center"
+        android:clickable="true"
+        android:textColor="@drawable/link"/>
+
+
+</LinearLayout>

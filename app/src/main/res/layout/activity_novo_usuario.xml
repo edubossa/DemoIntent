@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding_default_size"
+    android:orientation="vertical"
+    tools:context="com.ews.demointent.NovoUsuarioActivity">
+
+    <EditText
+        android:id="@+id/etNewUsername"
+        style="@style/inputs"
+        android:hint="@string/hint_username" />
+
+    <EditText
+        android:id="@+id/etNewNome"
+        style="@style/inputs"
+        android:hint="Informe seu nome" />
+
+    <EditText
+        android:id="@+id/etNewSenha"
+        style="@style/inputs_senha"
+        android:hint="@string/hint_senha" />
+
+    <Button
+        android:id="@+id/btCriar"
+        style="@style/inputs"
+        android:layout_marginTop="@dimen/padding_default_size"
+        android:text="@string/bt_criar"/>
+
+</LinearLayout>
